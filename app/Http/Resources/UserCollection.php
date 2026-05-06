@@ -19,5 +19,9 @@ class UserCollection extends ResourceCollection
     public function toAdele ()
     {
         return "Hello Adele";
+
+    public function showmdd()
+    {
+        return "Hello Mame dieye";
     }
 }
