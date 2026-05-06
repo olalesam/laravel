@@ -21,4 +21,9 @@ class Article extends JsonResource
     {
         return "Hello babou";
     }
+
+    public function showtouba()
+    {
+        return "Hello touba";
+    }
 }
