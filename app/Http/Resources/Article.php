@@ -16,4 +16,11 @@ class Article extends JsonResource
     {
         return parent::toArray($request);
     }
+
+     public function Index()
+    {
+        return "This is the index method of Article resource.";
+    
+}
+
 }
