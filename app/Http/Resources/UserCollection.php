@@ -37,7 +37,7 @@ class UserCollection extends ResourceCollection
     }
 
 
-    public function ShowAmina()
+    public function ShowAminata()
     {
         return "Hello, World!";
     }
