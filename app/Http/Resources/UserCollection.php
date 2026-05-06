@@ -29,4 +29,9 @@ class UserCollection extends ResourceCollection
     {
         return "Hello Mame dieye";
     }
+
+    public function showAmina():
+    {
+        return "Hello Amina";
+    }
 }
