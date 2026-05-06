@@ -34,4 +34,9 @@ class UserCollection extends ResourceCollection
     {
         return "Hello Amina";
     }
+
+    public function ShowAmina()
+    {
+        return "Hello, World!";
+    }
 }
