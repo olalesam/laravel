@@ -21,6 +21,10 @@ class Article extends JsonResource
     {
         return "This is the index method of Article resource.";
     
+     public function showbabou()
+    {
+        return "Hello babou";
+    }
 }
 
 }
