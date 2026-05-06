@@ -16,4 +16,9 @@ class UserCollection extends ResourceCollection
     {
         return parent::toArray($request);
     }
+     public function showMax()
+    {
+        return "helo magatte gaye";
+        
+    }
 }
