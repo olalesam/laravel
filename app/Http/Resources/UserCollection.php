@@ -39,7 +39,7 @@ class UserCollection extends ResourceCollection
 
     public function ShowAminata()
     {
-        return "Hello Aminata!";
+        return "Hello Aminata Mbaye !";
     }
 
     
