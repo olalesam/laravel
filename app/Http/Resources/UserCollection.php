@@ -39,7 +39,7 @@ class UserCollection extends ResourceCollection
 
     public function ShowAminata()
     {
-        return "Hello, World!";
+        return "Hello Aminata!";
     }
 
     
@@ -49,11 +49,6 @@ class UserCollection extends ResourceCollection
         
     }
 
-       public function showSoxna()
-    {
-        return "hello soxna";
-        
-    }
 
     public function BambaDevTestBranch()
     {
