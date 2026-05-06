@@ -23,7 +23,7 @@ class Article extends JsonResource
     }
      public function showbabou()
     {
-        return "j'ai modifié la méthode showbabou dans la ressource Article";
+        return "j'ai modifié la méthode showbabou dans la ressource Article a nouveau avec la branche testConflict";
     }
 }
 
