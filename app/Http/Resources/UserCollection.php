@@ -24,22 +24,25 @@ class UserCollection extends ResourceCollection
     public function toAdele ()
     {
         return "Hello Adele";
+    }
 
     public function showmdd()
     {
         return "Hello Mame dieye";
     }
 
-    public function showAmina():
+    public function showAmina()
     {
         return "Hello Amina";
     }
+
 
     public function ShowAmina()
     {
         return "Hello, World!";
     }
 
+    
      public function showMax()
     {
         return "helo magatte gaye";
@@ -51,4 +54,12 @@ class UserCollection extends ResourceCollection
         return "hello soxna";
         
     }
+
+    public function BambaDevTestBranch()
+    {
+        return "je veux merger cette branche de bambaDev dans la branche main";
+        
+    }
+
+
 }
