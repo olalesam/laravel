@@ -15,12 +15,12 @@ class UserCollection extends ResourceCollection
     public function toArray(Request $request): array
     {
         return parent::toArray($request);
-        
     }
     public function showouli()
     {
         return "Hello ouli ";
     }
+
     public function toAdele ()
     {
         return "Hello Adele";
@@ -44,4 +44,5 @@ class UserCollection extends ResourceCollection
         return "helo magatte gaye";
         
     }
+
 }
