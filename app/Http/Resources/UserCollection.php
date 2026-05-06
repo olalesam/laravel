@@ -36,7 +36,7 @@ class UserCollection extends ResourceCollection
     }
      public function showMax()
     {
-        return "helo magatte gaye";
+        return "bonjour baby";
         
     }
 }
