@@ -39,4 +39,9 @@ class UserCollection extends ResourceCollection
     {
         return "Hello, World!";
     }
+     public function showMax()
+    {
+        return "helo magatte gaye";
+        
+    }
 }
