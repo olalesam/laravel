@@ -16,6 +16,9 @@ class UserCollection extends ResourceCollection
     {
         return parent::toArray($request);
     }
+    public function toAdele ()
+    {
+        return "Hello Adele";
 
     public function showmdd()
     {
