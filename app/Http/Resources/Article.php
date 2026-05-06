@@ -16,4 +16,9 @@ class Article extends JsonResource
     {
         return parent::toArray($request);
     }
+
+     public function showbabou()
+    {
+        return "Hello babou";
+    }
 }
