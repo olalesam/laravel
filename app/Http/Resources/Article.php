@@ -29,8 +29,7 @@ class Article extends JsonResource
     
      public function showbabou()
     {
-        return "Hello babou";
+        return "j'ai modifié la méthode showbabou dans la ressource Article";
     }
 
 
-}
