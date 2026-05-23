@@ -17,13 +17,19 @@ class Article extends JsonResource
         return parent::toArray($request);
     }
 
+     public function siga()
+    {
+        return "Bonjour Siga";
+     }
+
      public function Index()
     {
         return "This is the index method of Article resource.";
-    }
+     }
+    
      public function showbabou()
     {
         return "j'ai modifié la méthode showbabou dans la ressource Article";
     }
-}
+
 
